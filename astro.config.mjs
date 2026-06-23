@@ -3,7 +3,7 @@ import tailwind from "@tailwindcss/vite";
 import { defineConfig } from "astro/config";
 import { FontaineTransform } from "fontaine";
 
-const site = process.env.CF_PAGES_URL || "http://localhost:4321";
+const site = process.env.SITE || "http://localhost:4321";
 const base = process.env.BASE || "/";
 
 // https://astro.build/config
